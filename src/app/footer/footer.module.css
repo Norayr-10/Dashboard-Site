@@ -1,0 +1,27 @@
+.container {
+  width: 79.8%;
+  height: 20vh;
+  margin-left: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formed {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+}
+
+.link {
+  color: black;
+}
+
+@media (max-width: 993px) {
+  .container {
+    margin-left: 0;
+  }
+}

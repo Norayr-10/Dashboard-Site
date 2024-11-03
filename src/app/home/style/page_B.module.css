@@ -1,0 +1,110 @@
+.container {
+  width: 80%;
+  height: 45vh;
+  margin-left: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.formed {
+  width: 99%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.formed_A {
+  width: 99%;
+  height: 5%;
+}
+
+.formed_B {
+  width: 99%;
+  height: 80%;
+  border: 1px solid #ccc;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.first {
+  width: 100%;
+  height: 16%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secound {
+  width: 100%;
+  height: 17%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.formed_C {
+  width: 15%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: self-start;
+}
+
+.btn {
+  width: 94%;
+  height: 100%;
+  background-color: #616161;
+  color: white;
+  border: none;
+}
+
+.first:hover {
+  background-color: silver;
+}
+
+.secound:hover {
+  background-color: silver;
+}
+
+.btn:hover {
+  background-color: silver;
+  color: black;
+}
+
+@media (max-width: 1027px) {
+  .formed_C {
+    width: 25%;
+  }
+}
+
+@media (max-width: 993px) {
+  .container {
+    margin-left: 0px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 607px) {
+  .formed_C {
+    width: 35%;
+  }
+}
+
+@media (max-width: 443px) {
+  .formed_C {
+    width: 40%;
+  }
+}
+
+@media (max-width: 378px) {
+  .formed_C {
+    width: 45%;
+  }
+}
